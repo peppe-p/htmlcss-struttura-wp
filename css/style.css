@@ -10,7 +10,50 @@
     clear: both;
 }
 
+body {
+    width: 70%;
+    margin: auto;
+}
+
 header, footer {
     height: 100px;
     background-color: dodgerblue;
 }
+
+
+/* ##### CLASSES ITEMS ##### */
+.main_div {
+    background-color: lightskyblue;
+}
+
+.img {
+    height: 500px;
+}
+
+.columsbox{
+    height: 500px;
+    background-color: yellowgreen;
+}
+    .columsbox > aside {
+        height: 100%;
+    }
+
+.asd_left {
+    float: left;
+    background-color: violet;
+    width: 20%;
+}
+
+.asd_center {
+    float: left;
+    background-color: rgb(218, 59, 178);
+    width: 60%;
+}
+
+.asd_right {
+    float: right;
+    background-color: rgb(128, 27, 128);
+    width: 20%;
+
+}
+/* ######################### */
